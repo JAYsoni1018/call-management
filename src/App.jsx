@@ -12,13 +12,10 @@ function App() {
     <Router>
       <SideBar />
       <Routes>
-        <Route exact path="/" element={<HomeScreen />} />
-        {/* <Route exact path="/about" element={<About />} />
-        <Route exact path="/menu" element={<Menu />} /> */}
+          <Route exact path="/" element={<HomeScreen />} />
 
 
-      </Routes>
-      {/* <Footer /> */}
+        </Routes>
     </Router>
 
 
