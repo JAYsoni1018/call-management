@@ -1,15 +1,8 @@
-import { useState } from 'react';
 import { Link } from "react-router-dom"
 
 const Order = () => {
 
-    const [problem, setProblem] = useState("");
 
-    // Assuming this code is within a function or event handler
-    let p = "Lorem, ipsum dolor sit amet consectetur adipisicing elit";
-    setProblem(p); // Update the state using setProblem function
-
-    console.log(p)
     return (
         <div className="details">
             <div className="recentOrders">
@@ -36,7 +29,7 @@ const Order = () => {
                             <td>1</td>
                             <td>Joyn xyz</td>
                             <td>joyn@gmail.com</td>
-                            <td className="problem">{problem}</td>
+                            <td className="problem">Lorem, ipsum dolor sit amet consectetur adipisicing elit</td>
                             <td><span className="status delivered">Delivered</span></td>
                             <td>12/2/2024</td>
                             <td><Link to="/#" className="btn">View</Link>
@@ -48,7 +41,7 @@ const Order = () => {
                             <td>2</td>
                             <td>Joyn xyz</td>
                             <td>joyn@gmail.com</td>
-                            <td className="problem">{problem}</td>
+                            <td className="problem">Lorem, ipsum dolor sit amet consectetur adipisicing elit</td>
                             <td><span className="status pending">Pending</span></td>
 
                             <td>12/2/2024</td>
