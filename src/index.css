@@ -129,14 +129,12 @@ body {
 /* ===================== Main ===================== */
 .main {
   position: absolute;
-  width: calc(100% - 300px);
   left: 300px;
   min-height: 100vh;
   background: var(--white);
   transition: 0.5s;
 }
 .main.active {
-  width: calc(100% - 80px);
   left: 80px;
 }
 
@@ -353,4 +351,113 @@ body {
   border-radius: 4px;
   font-size: 14px;
   font-weight: 500;
+}
+/* All customers */
+.allvalues {
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  min-height: 100vh;
+  background: var(--white);
+  transition: 0.5s;
+}
+
+.allvalues.active {
+  left: 80px;
+}
+
+
+.details .recentOrders table tr td .btn-del {
+  padding: 8px 10px;
+  background: rgb(197, 32, 40);
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+
+/* customer detail */
+.detail {
+  position: absolute;
+  top: 70px;
+  left: 360px;
+
+  /* border: 2px solid green; */
+  background: var(--white);
+  transition: 0.5s;
+}
+
+.detail .data {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4px;
+  /* border: 1px solid red; */
+  border-bottom: 1px solid silver;
+}
+
+.detail .data .key {
+  /* padding-right: 38%; */
+  /* float: left; */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.detail .data .value {
+  /* border: 2px solid blue; */
+
+
+  font-size: 1.1rem;
+
+}
+
+.detail .data .problem {
+  width: 650px;
+  margin-left: 70px;
+  padding-top: 12px;
+  text-align: left;
+  /* border: 2px solid green; */
+
+}
+
+.detail .btn-del {
+  position: absolute;
+  top: 0;
+  right: -180px;
+  padding: 8px 10px;
+  background: rgb(197, 32, 40);
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+
+
+/* footer */
+/* .footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px;
+
+  color: white;
+  background-color: black;
+  
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background: black;
+  color: white;
+  padding-block: 9px;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
 }

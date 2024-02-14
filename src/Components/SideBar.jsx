@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { faCircleQuestion, faComment } from "@fortawesome/free-regular-svg-icons"
-import {  faGear, faHouse, faLock, faMagnifyingGlass, faRightFromBracket, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { faGear, faHouse, faLock, faMagnifyingGlass, faRightFromBracket, faTicket, faUsers } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
 import person from '../assets/imgs/customer01.jpg'
@@ -29,14 +29,21 @@ const SideBar = () => {
                     </li>
 
                     <li>
-                        <Link to="/#">
+                        <Link to="/customers">
                             <span className="icon">
                                 <FontAwesomeIcon icon={faUsers} size="xl" />
                             </span>
                             <span className="title">Customers</span>
                         </Link>
                     </li>
-
+                    <li>
+                        <Link to="/tickets">
+                            <span className="icon">
+                                <FontAwesomeIcon icon={faTicket} size="xl" />
+                            </span>
+                            <span className="title">Ticket</span>
+                        </Link>
+                    </li>
                     <li>
                         <Link to="/#">
                             <span className="icon">
@@ -46,16 +53,9 @@ const SideBar = () => {
                         </Link>
                     </li>
 
-                    <li>
-                        <Link to="/#">
-                            <span className="icon">
-                                <FontAwesomeIcon icon={faCircleQuestion} size="xl" />
-                            </span>
-                            <span className="title">Help</span>
-                        </Link>
-                    </li>
 
-                    <li>
+
+                    {/* <li>
                         <Link to="/#">
                             <span className="icon">
                                 <FontAwesomeIcon icon={faGear} size="xl" />
@@ -71,7 +71,7 @@ const SideBar = () => {
                             </span>
                             <span className="title">Password</span>
                         </Link>
-                    </li>
+                    </li> */}
 
                     <li>
                         <Link to="/#">
