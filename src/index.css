@@ -422,7 +422,9 @@ body {
   /* border: 2px solid green; */
 
 }
-
+.detail .data .status {
+  font-size: 1.1rem;
+}
 .detail .btn-del {
   position: absolute;
   top: 0;
@@ -436,7 +438,20 @@ body {
 }
 
 
-
+.detail .submit-btn {
+  /* margin-top: 30px; */
+  position: relative;
+  top: 37px;
+  left: 366px;
+  /* margin-right: auto; */
+  padding: 8px 20px;
+  background: rgb(0, 123, 255);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* footer */
 /* .footer {
   position: absolute;

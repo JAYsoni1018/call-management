@@ -6,7 +6,7 @@ const Footer = () => {
 
 
             <p  >
-                Copy Right &#169; All Rights Reserved  || Created By Jay Soni
+                Copy Right &#169; All Rights Reserved  
             </p>
 
         </footer>

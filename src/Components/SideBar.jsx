@@ -4,7 +4,7 @@ import { faCircleQuestion, faComment } from "@fortawesome/free-regular-svg-icons
 import { faGear, faHouse, faLock, faMagnifyingGlass, faRightFromBracket, faTicket, faUsers } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
-import person from '../assets/imgs/customer01.jpg'
+// import person from '../assets/imgs/customer01.jpg'
 
 const SideBar = () => {
     return (
@@ -97,7 +97,7 @@ const SideBar = () => {
                     </div>
 
                     <div className="user">
-                        <img src={person} alt="loading" />
+                    {/* <img src={person} alt="loading" /> */}
                     </div>
                 </div>
             </div>

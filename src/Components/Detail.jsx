@@ -28,6 +28,17 @@ const Detail = () => {
                 <p className="problem">Lorem, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, laboriosam exercitationem numquam, explicabo consequatur iure et quod facere dolor, incidunt ea! Praesentium sunt, facilis molestiae soluta assumenda minima magni minus officia ut pariatur error? At quis id nihil officia. Amet! ipsum dolor sit amet consectetur adipisicing elit</p>
             </div>
 
+            <div className="data">
+                <p className="key">Status</p>
+                <select className="status">
+                    <option value="pending">Pending</option>
+                    <option value="delivered">Delivered</option>
+                    <option value="reject">Reject</option>
+                    <option value="in-progress">In progress</option>
+                </select>
+            </div>
+            <Link to="/" className="submit-btn ">Submit</Link>
+
 
             <Link to="/" className="btn-del">Close Ticket</Link>
         </div>
